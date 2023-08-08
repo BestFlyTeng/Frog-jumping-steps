@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 #include <Windows.h>
+// æœ‰nä¸ªå°é˜¶ï¼Œé’è›™æ¯æ¬¡åªèƒ½è·³ä¸€ä¸ªæˆ–ä¸¤ä¸ªå°é˜¶ï¼Œæœ‰å¤šå°‘è·³æ³•
 int jump(int n) {
 	int a = 1;
 	int b = 2;
@@ -20,9 +21,9 @@ int jump(int n) {
 }
 int main() {
 	int inp = 0;
-	printf("ÇëÊäÈëÓĞ¼¸¸öÌ¨½×:>");
+	printf("è¯·è¾“å…¥æœ‰å‡ ä¸ªå°é˜¶:>");
 	scanf("%d", &inp);
-	printf("ÓĞ%dÖÖÌø·¨\n",jump(inp));
+	printf("æœ‰%dç§è·³æ³•\n",jump(inp));
 	system("pause");
 	return 0;
 }
